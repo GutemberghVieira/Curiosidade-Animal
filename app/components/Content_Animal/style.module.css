@@ -1,0 +1,100 @@
+
+.ContainerArrow 
+{
+padding:10px;
+height:50px;
+position:relative;
+transition:.2s ease-in;
+}
+
+.ContainerArrow i
+{
+position:absolute;
+right:50%;
+left:50%;
+display:flex;
+flex-direction:column;
+align-items:center;
+cursor:pointer;
+}
+
+.ContainerArrow i p
+{
+font-weight:bold;
+}
+
+.ContainerArrow i svg
+{
+font-size:39px;
+animation:upfordown 2s ease-in infinite;
+}
+
+.X_Style 
+{
+position:relative;
+}
+
+.X_Style i
+{
+position:absolute;
+right:2%;
+bottom:20%;
+cursor:pointer;
+z-index:3;
+}
+
+.X_Style i svg 
+{
+font-size:39px;
+}
+ 
+
+@keyframes upfordown 
+{
+0%
+{
+transform:translateY(5px);
+}
+
+25%
+{
+transform:translateY(-5px);
+}
+
+50%
+{
+transform:translateY(5px);
+}
+
+75% 
+{
+transform:translateY(-5px);
+}
+
+100%
+{
+transform:translateY(5px);
+}
+
+}
+
+.NewContainer
+{
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:25px 0;
+} 
+
+
+@media screen and (max-width:1180px)
+{   
+.NewContainer
+{
+margin:0 !important;
+}
+}
+
+ 

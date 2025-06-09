@@ -1,0 +1,222 @@
+.ContainerTwoDivs
+{
+display:flex;
+align-items:center;
+justify-content:center;
+width:60%;
+height:100%;
+}
+
+.ContainerApresentation
+{
+text-align:center;
+width:800px;
+animation:.2s ease-in upfordown;
+}
+
+
+@keyframes upfordown
+{
+0% 
+{
+transform:translateY(-25px);
+opacity:0;
+}
+
+100%
+{
+opacity:1;
+}
+}
+
+.Remove 
+{
+display:none;
+}
+
+.ContainerApresentation h2,
+.ContainerApresentation h3,
+.ContainerApresentation p
+{
+margin:8px 0;
+}
+
+.ContainerApresentation h2 
+{
+font-size:20px;
+}
+
+.ContainerApresentation h3 
+{
+font-size:16px;
+}
+
+.ContainerApresentation p 
+{
+font-style:italic;
+}
+
+.CatStyle,.DogStyle 
+{
+font-weight:bold;
+}
+
+.CatStyle
+{
+color:#8687FF;
+text-decoration:none;
+}
+
+.DogStyle
+{
+color:#F6274D;
+text-decoration:none;
+}
+
+.DadosStyle
+{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/*Arrow Left and Right*/
+.ArrowLeft,
+.ArrowRight 
+{
+font-size:52px;
+margin:0 12px;
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+}
+
+.SocialStyle 
+{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+animation:upfordown .2s ease-in;
+text-align:center;
+width:100%;
+}
+
+.SocialStyle p
+{
+font-size:17px;
+font-style:italic;
+font-weight:bold;
+margin:10px 0;
+}
+
+.SocialStyle nav
+{
+width:100%;
+display:flex;
+align-items:center;
+justify-content:space-around;
+}
+
+.SocialStyle nav li 
+{
+list-style:none;
+}
+
+.SocialStyle nav li a 
+{
+text-decoration:none;
+}
+
+.SocialStyle nav li a svg 
+{
+font-size:40px;
+font-weight:bold;
+color:#fff;
+}
+
+.NoSocialStyle 
+{
+display:none;
+}
+
+.ColorLinksHover:hover 
+{
+color:var(--DiferentColors);
+transition:.2s ease-in;
+}
+
+.Container  
+{
+display:flex;
+align-items:center;
+width:100%;
+height:100%;
+}
+
+@media screen and (max-width:1180px)
+{
+
+.ContainerTwoDivs
+{
+width:70% !important;
+}
+
+}
+
+@media screen and (max-width:986px)
+{
+
+.ContainerTwoDivs 
+{
+width:100% !important;
+height:50% !important;
+align-items:flex-start !important;
+}
+
+}
+
+@media screen and (max-width:741px)
+{
+.Container 
+{
+box-shadow:3px 4px 4px #07080B inset;
+background:#12121d;
+}
+ 
+}
+
+@media screen and (max-width:718px)
+{
+
+.Container h2,
+.Container h3 
+{
+font-size:14px !important;
+}
+
+.Container p 
+{
+font-size:15px !important;
+}
+
+}
+
+@media screen and (max-width:591px)
+{
+
+.Container h2,
+.Container h3,
+.Container p 
+{
+font-size:13px !important;
+}
+
+.ArrowLeft,
+.ArrowRight 
+{
+font-size:32px !important;
+}
+    
+}

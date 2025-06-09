@@ -1,0 +1,158 @@
+
+*
+{
+padding:0;
+margin:0;
+font-family:sans-serif;
+box-sizing:border-box;
+}
+
+.BodyStyle 
+{
+width:100%;
+height:100vh;
+background:url(../public/Wallpaper_For_Body.png);
+background-size:contain;
+overflow:hidden;
+}
+
+.ContainerBlue
+{
+--Image-Design:url(../public/DesignSite_Dog.png);
+--Image_Design_P:url(../public/DesignSite_Dog_Device.png);
+--DiferentColors:#F6274D;
+}
+
+:root
+{
+--Image-Design:url(../public/DesignSite_Cat.png);
+--Image_Design_P:url(../public/DesignSite_Cat_Device.png);
+--DiferentColors:#8687FF;
+}
+
+.StyleCat 
+{   
+background:#6d6ddf !important;
+color:#fff !important;
+}
+
+.StyleDog
+{
+background:#ff234c !important;
+color:#fff !important;
+}
+ 
+.Expandir 
+{  
+opacity:1;
+position:absolute !important;
+height:100% !important;
+width:100% !important;
+transition:.2s ease-in !important;
+bottom:0;
+background-image:var(--Image-Design) !important;
+background-size:cover !important;
+background-repeat:no-repeat !important;
+}
+
+.Diminuir 
+{
+position:absolute !important;
+transition:.2s ease-in !important;
+width:100%;
+height:100px;
+bottom:0;
+}
+
+.StyleYea 
+{
+width:100%;
+height:100px;
+background-color:#07080B;
+color:#fff;
+opacity:1;
+z-index:1;
+position:relative;
+transition:.2s ease-in;
+}
+ 
+.NotStyle 
+{
+animation:recolheSlide .2s ease-in;
+position:relative;
+height:0;
+opacity:0;
+}
+
+
+@keyframes slide 
+{
+0%
+{
+opacity:0;
+transform:translateY(100%);
+}
+
+100% 
+{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@keyframes recolheSlide 
+{
+
+0% 
+{
+opacity:1;
+transform:translateY(-100%)
+}    
+
+100%
+{
+opacity:0;
+transform:translateY(0);
+}
+
+}
+
+
+@media screen and (max-width:1180px)
+{
+
+.Expandir
+{
+background-image:var(--Image-Design) !important;
+background-size:115% !important;
+background-position:center;
+}
+
+}
+
+@media screen and (max-width:986px)
+{
+
+.Expandir
+{
+background-image:var(--Image_Design_P) !important;
+background-size:cover !important;
+}
+
+}
+
+@media screen and (max-width:967px)
+{
+.BodyStyle 
+{
+background-size:cover !important;
+} 
+}
+
+@media screen and (max-width:741px)
+{
+.Expandir{
+background-image:none !important;
+}
+}

@@ -1,0 +1,54 @@
+
+.Container_Content
+{
+width:100%;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+animation:UpForDown .2s ease-in;
+}
+
+.Container_Content h2 
+{
+font-size:22px;
+}
+
+.Container_Content p 
+{
+font-style:italic;
+}
+
+.Container_Content h2,
+.Container_Content p 
+{
+margin:5px 0;
+font-size:100%;
+}
+
+@keyframes UpForDown
+{
+
+0%
+{
+transform:translateY(-25px);
+opacity:0;
+}
+
+100%
+{
+opacity:1;
+}
+
+}
+
+
+@media screen and (max-width:986px)
+{
+
+.Container_Content p 
+{
+font-size:14px !important;
+}
+
+}

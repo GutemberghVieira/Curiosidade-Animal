@@ -1,0 +1,93 @@
+
+.CardContainer 
+{
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:20px 0;
+}
+
+.CardContainer div 
+{
+text-align:center;
+width:50%;
+background-color:#07080B;
+color:#fff;
+padding:5px
+}
+
+.CardContainer div p 
+{
+font-style:italic;
+}
+
+.CardContainer div h2,
+.CardContainer div p,
+.CardContainer div ul 
+{
+margin:10px 0 0 0;
+}
+
+.CardContainer div ul li 
+{
+list-style:none;
+padding:5px;
+font-weiht:bold;
+}
+
+.CardContainer div button 
+{
+padding:10px;
+margin:10px 0;
+background:transparent;
+border:none;
+color:#fff;
+cursor:pointer;
+outline:none;
+transition:.2s ease-in;
+}
+
+.Dog,
+.Cat 
+{
+font-size:20px;
+font-weight:bold;
+}
+
+.Dog 
+{
+color:#ff274d;
+}
+
+.Cat 
+{
+color:#8787ff;
+}
+
+.ECommerceStyle
+{
+font-weight:500;
+font-size:20px;
+}
+
+@media screen and (max-width:1294px)
+{
+.CardContainer div 
+{
+width:80% !important;
+}
+}
+
+@media screen and (max-width:824px)
+{
+.CardContainer
+{
+margin:0 !important;
+}
+
+.CardContainer div
+{
+width:100% !important;
+}
+}
