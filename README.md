@@ -1,2 +1,2 @@
 # Curiosidade-Animal
-Cachorro & Gato Descubra curiosidades sobre o seu pet e saiba como identificar problemas quando eles tem reações diferentes ou até mesmo descobrir ações incríveis que você provavelmente não sabia sobre o cão ou gato 
+<p> Descubra curiosidades sobre o seu pet e saiba como identificar problemas quando eles tem reações diferentes ou até mesmo descobrir ações incríveis que você provavelmente não sabia, dessa forma você vai saber mais sobre o seu pet e vai se preocupar apenas em dar Amor e Carinho, essas curiosidades focam nos dois animais tradicionais Cão & Gato.</p>
